@@ -11,7 +11,7 @@ edition = "2018"
 [dependencies]
 futures = { version = "0.3", default-features = false, features = ["alloc"] }
 tokio = { version = "1.29", features = ["net"] }
-zmq = "0.10"
+zmq = { git = "https://github.com/bartols/rust-zmq" }
 log = "0.4"
 thiserror = "1"
 
